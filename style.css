@@ -1,21 +1,27 @@
 
+  /* formats everything */
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
+  /* targets html portion */
   html {
       position: relative;
       min-height: 100%;
   }
 
-
+/* adjusts body details */
   body {
     background-color: teal;
     margin-bottom: 140px;
+    background-image: url(assets/bk2.jpg);
+    background-size: auto;
   }
 
+
+  /* creates uniform card size */
 
 .card {
     margin-top: 40px;
@@ -24,23 +30,53 @@
    
 }
 
+/* adjusts font height/weight of card header */
 .card-header {
     font-size: large;
     font-weight: bold;
 }
 
-
+/* adjusts bottom margin of all .col-md-6 */
 .col-md-6 {
     margin-bottom: 40px;
-
-    
+  
 }
 
+/* uniformly styles buttons on about me page */
+.button {
+  background-color: cornflowerblue;
+  margin-top: 15px;
+  color: white; 
+  border-color: grey;
+  }
+
+  /* changes button color when hovered over */
+  .button:hover {
+  background-color:rgb(111, 193, 180); 
+  }
+
+  #btn2, #btn3  {
+    margin-left: 10px; 
+  }
+  
+  #btn1 {
+    margin-left: 40px;
+  }
+  
+  /* adjusts size of favicons */
+  .fab {
+    width: 30px; 
+    height: auto; 
+  }
+
+  /* adjusts photo size */
 .responsive {
     width: 100%;
-    height: auto;
+    height: 90%;
+    margin-top: 10px;
 }
 
+/* styles footer on all pages */
 .footer {
     background-color: cornflowerblue;
     text-align: center;
@@ -52,22 +88,3 @@
     height: 40px; 
 
 }
-
-#btn1 {
-  width: 50%;
-  height: auto; 
-
-}
-
-#btn2 {
-  width: 50%;
-  height: auto; 
-}
-
-
-
-/* .btn {
-  width: 1000px;
-  height: 1000px; 
-  background-color: cornflowerblue;
-} */
