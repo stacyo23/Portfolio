@@ -41,6 +41,8 @@
   
 }
 
+
+/* styles button */
 .btn {
   background-color: cornflowerblue;
   color: white; 
@@ -56,13 +58,15 @@
 
   /* changes button color when hovered over */
   .button:hover {
-  background-color:rgb(111, 193, 180); 
+    background-color:rgb(31, 142, 150); 
   }
 
+  /* adust spacing of other buttons */
   #btn2, #btn3  {
     margin-left: 10px; 
   }
   
+  /* move button to be aesthetically pleasing */
   #btn1 {
     margin-left: 40px;
   }
@@ -80,6 +84,25 @@
     margin-top: 17px;
     margin-left: 10px;
 }
+
+/* adjust size of portfolio photos (top row too small) */
+#gf, #pg {
+  width: 315px; 
+  height: 250px; 
+}
+
+/* style buttons on portfolio page */
+.pbtn {
+  margin-top: 10px; 
+  margin-left: 15px; 
+  color: white; 
+  background-color: cornflowerblue;
+}
+
+/* hover changes color of buttons */
+.pbtn:hover {
+  background-color:rgb(31, 142, 150); 
+  }
 
 /* styles footer on all pages */
 .footer {
