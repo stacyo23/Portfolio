@@ -20,10 +20,6 @@
     background-size: auto;
   }
 
-.navbar-brand {
-  margin-right: 50px;
-}
-
   /* creates uniform card size */
 
 .card {
@@ -43,6 +39,11 @@
 .col-md-6 {
     margin-bottom: 40px;
   
+}
+
+.btn {
+  background-color: cornflowerblue;
+  color: white; 
 }
 
 /* uniformly styles buttons on about me page */
