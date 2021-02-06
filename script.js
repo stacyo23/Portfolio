@@ -38,3 +38,22 @@ $("#scheduleR").click(function() {
     document.location = "https://github.com/stacyo23/WorkDayScheduler";
 });
 
+// button navigates to deployed Foodiebook site
+$("#fbD").click(function() { 
+    document.location = "https://morning-peak-44853.herokuapp.com/";
+});
+
+// button navigates to Foodiebook repo
+$("#fbR").click(function() { 
+    document.location = "https://github.com/stacyo23/Foodie-Book";
+});
+
+// button navigates to deployed Foodiebook site
+$("#edbD").click(function() { 
+    document.location = "https://mysterious-citadel-90085.herokuapp.com/";
+});
+
+// button navigates to Foodiebook repo
+$("#edbR").click(function() { 
+    document.location = "https://github.com/stacyo23/Eat-Da-Burger";
+});
