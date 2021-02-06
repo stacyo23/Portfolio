@@ -88,20 +88,25 @@
 /* adjust size of portfolio photos (top row too small) */
 #gf, #pg {
   width: 315px; 
-  height: 250px; 
+  height: auto; 
 }
 
+#pg {
+  height: 180px;
+}
 /* style buttons on portfolio page */
 .pbtn {
   margin-top: 10px; 
-  margin-left: 15px; 
+  margin-left: 10px; 
   color: white; 
   background-color: cornflowerblue;
+  padding-right: 5px;
+  padding-left:5px;
 }
 
 /* hover changes color of buttons */
 .pbtn:hover {
-  background-color:rgb(31, 142, 150); 
+  background-color:teal; 
   }
 
 /* styles footer on all pages */
@@ -115,4 +120,10 @@
     width: 100%;
     height: 40px; 
 
+}
+
+#btn1, #btn2, #btn3{
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
